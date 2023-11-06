@@ -1,0 +1,14 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: automazione-crif
+  description: creazione-vm-centos
+  annotations:
+    backstage.io/kubernetes-id: automazione-crif
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: neenspa/automazione-crif
+spec:
+  type: api
+  lifecycle: production
+  owner: amargheritini
